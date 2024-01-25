@@ -1,2 +1,2 @@
-# controlclassifer
-A software that classifies item descriptions
+# classifier
+A textual classifier
