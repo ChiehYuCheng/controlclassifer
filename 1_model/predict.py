@@ -14,8 +14,7 @@ def classify_string(input_string):
     return model.predict(hub.load('https://tfhub.dev/google/universal-sentence-encoder/4')([processed_text]))[0][0]
 
 def main(input):
-    classification = classify_string(input)
-    print(f'The probability of this item being export control is: {classification * 100:.2f}%')
+    print(classify_string(input))
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
