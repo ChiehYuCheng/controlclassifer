@@ -80,7 +80,7 @@ def country_page():
             st.markdown("Please [click here](https://docs.google.com/forms/d/e/1FAIpQLSel5eP92d3OTvMKDBTh9bWL7Kg-jVs6DzkwsTcf-hRFM_uFNw/viewform) to proceed to the next step.")
         else:
             # Annex 7 + 8
-            st.markdown("Please [click here](https://docs.google.com/forms/d/e/1FAIpQLSel5eP92d3OTvMKDBTh9bWL7Kg-jVs6DzkwsTcf-hRFM_uFNw/viewform) to proceed to the next step.")
+            st.markdown("Please [click here](https://docs.google.com/forms/d/18_jvzJj9J37pM-fzUB5ZzlqKaOtlqFpKufytNSJ7W2A/prefill) to proceed to the next step.")
                                           
 def main():
     if 'page' not in st.session_state:
